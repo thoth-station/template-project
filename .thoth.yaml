@@ -1,4 +1,4 @@
-host: khemenu.thoth-station.ninja
+host: test.thoth-station.ninja
 tls_verify: false
 requirements_format: pipenv
 
