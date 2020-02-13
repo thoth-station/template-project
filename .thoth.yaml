@@ -1,5 +1,5 @@
-host: test.thoth-station.ninja
-tls_verify: false
+host: khemenu.thoth-station.ninja
+tls_verify: true
 requirements_format: pipenv
 
 runtime_environments:
