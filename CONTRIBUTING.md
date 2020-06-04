@@ -30,14 +30,14 @@ It's a quick read, and it's a great way to introduce yourself to how things work
 If you are introducing a new dependency, please make sure it's added to:
 
 - Pipfile
-- setup.py if its a package. 
+- setup.py if its a package.
 
 ### Documentation
 
 If you want to update documentation, [README.md](README.md) is the file you're looking for.
 
 
-### How to contribute code to ogr
+### How to contribute code to Thoth-Station
 
 1. Create a fork of this repository.
 2. Create a new branch just for the bug/feature you are working on.
@@ -63,7 +63,9 @@ To make sure our code is [PEP8](https://www.python.org/dev/peps/pep-0008/) compl
 There's a [pre-commit](https://pre-commit.com) config file in [.pre-commit-config.yaml](.pre-commit-config.yaml).
 To [utilize pre-commit](https://pre-commit.com/#usage), install pre-commit with `pip3 install pre-commit` and then either:
 
-- `pre-commit install` - to install pre-commit into your [git hooks](https://githooks.com). pre-commit will from now on run all the checkers/linters/formatters on every commit. If you later want to commit without running it, just run `git commit` with `-n/--no-verify`.
+- `pre-commit install` - Install pre-commit into your [git hooks](https://githooks.com).
+pre-commit will run all the checkers/linters/formatters for every commit.
+If you want to commit without running it, just run `git commit` with `-n/--no-verify`.
 - Or if you want to manually run all the checkers/linters/formatters, run `pre-commit run --all-files`.
 
 Thank you for your interest!
