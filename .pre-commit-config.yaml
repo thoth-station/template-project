@@ -55,8 +55,8 @@ repos:
         # Ignore all format-related checks as Black takes care of those.
         args: ['--ignore', 'E2,W5', '--select', 'E,W,F,N', '--max-line-length=120']
 
-# Remove in repositories with python packages.
-# - repo: https://github.com/mgedmin/check-manifest
-#   rev: '0.39'
-#   hooks:
-#     - id: check-manifest
+  # Remove in repositories with python packages.
+  # - repo: https://github.com/mgedmin/check-manifest
+  #   rev: '0.39'
+  #   hooks:
+  #     - id: check-manifest
