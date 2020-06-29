@@ -47,6 +47,12 @@ repos:
     hooks:
       - id: black
 
+  # Enable this in repositories with python packages.
+  # - repo: https://github.com/mgedmin/check-manifest
+  #   rev: '0.39'
+  #   hooks:
+  #     - id: check-manifest
+
   - repo: https://gitlab.com/PyCQA/flake8
     rev: '3.7.8'
     hooks:
@@ -54,8 +60,3 @@ repos:
         additional_dependencies: ['pep8-naming']
         # Ignore all format-related checks as Black takes care of those.
         args: ['--ignore', 'E2,W5', '--select', 'E,W,F,N', '--max-line-length=120']
-
-  - repo: https://github.com/mgedmin/check-manifest
-    rev: '0.39'
-    hooks:
-      - id: check-manifest
