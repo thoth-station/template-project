@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # project template
-# Copyright(C) 2010 Red Hat, Inc.
+# Copyright(C) 2021 Red Hat, Inc.
 #
 # This program is free software: you can redistribute it and / or modify
 # it under the terms of the GNU General Public License as published by
