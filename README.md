@@ -3,9 +3,9 @@
 This is a Template for any Python based project, it contains what Project Thoth and the AI CoE need:
 
 1. GitHub defaults and Templates for issues
-2. configuration for Coala and Black (code formating)
-3. basic configuration for Zuul
-4. configuration for Thoth (stage environment, Red Hat VPN only)
+2. configuration for Coala and Black (code formating) are done using `prow` with pre-commit and `mypy`.
+3. Zuul is no longer suppported. Instead AICOE-CI is used for basic configuration.
+4. we have a public service configuration now accessible for everyone.
 5. if you are writing a Python module, Kebechet could manage releases of your packages for you
 6. if credentials are provided, Python module releases could be published to PyPI
 
