@@ -11,6 +11,13 @@ Fixes: #XYZ -->
 
 <!-- If this introduces a breaking change, please describe the impact and migration path for existing applications below. -->
 
+## This should yield a new module release
+
+- Yes
+- No
+
+<!-- If this change modifies the behavior of the module, specify that it should yield a new minor release. -->
+
 ## This Pull Request implements
 <!-- Provide a summary of your changes here. -->
 
