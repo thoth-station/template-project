@@ -23,5 +23,8 @@ Steps to reproduce the behavior:
 <!-- Please include names and versions of the components involved.
 If appropriate, include relevant parts of their configuration. -->
 
+### LOGS
+<!-- Add additional logs of the observed bug here. -->
+
 ### Additional context
 <!-- Add any additional context information about the problem here. -->
