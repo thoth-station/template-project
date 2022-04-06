@@ -28,5 +28,3 @@ If appropriate, include relevant parts of their configuration. -->
 
 ### Additional context
 <!-- Add any additional context information about the problem here. -->
-
-
